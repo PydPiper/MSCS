@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mscs-slides"
+version = "0.1.0"
+description = "Markdown presentations built with Sphinx and Reveal.js"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "sphinx>=8,<10",
+    "myst-parser>=4,<6",
+    "sphinx-revealjs>=3.2,<4",
+]
+
+[tool.setuptools]
+packages = []
