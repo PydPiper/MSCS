@@ -5,6 +5,7 @@ This repository turns Markdown files into a browser based slide deck using Sphin
 ## Write slides
 
 Edit [`docs/index.md`](docs/index.md). The first heading is the deck title; each `##` heading starts a new slide. Use normal Markdown for text, lists, links, images, and fenced code blocks. Press the **S** key during a presentation to open speaker view and see notes.
+Use the **Light mode** button in the upper-right corner to switch between light and dark themes.
 
 Keep each slide as a `##` section in `docs/index.md`; you can split a large deck into additional Markdown files as the project grows.
 

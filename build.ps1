@@ -1,0 +1,1 @@
+sphinx-build -b revealjs docs docs/_build/revealjs
